@@ -1,0 +1,24 @@
+# Data
+*.csv
+/data/
+/kaggle/
+
+# Model checkpoints (large binary files — see README for how to obtain/rebuild)
+*.pt
+*.pth
+*.ckpt
+/checkpoints/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
