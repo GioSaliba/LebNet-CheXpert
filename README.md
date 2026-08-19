@@ -70,5 +70,5 @@ If you build on the original CheXpert methodology, please cite:
 ## License
 
 Code in this repository is released under the MIT License (see `LICENSE`). The CheXpert
-dataset itself is subject to Stanford ML Group's own license terms — see the dataset page
+dataset itself is subject to Stanford ML Group's own license terms, see the dataset page
 above.
