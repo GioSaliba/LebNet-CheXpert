@@ -8,7 +8,7 @@ FGSM adversarial testing).
 Trained on a 100k-image subsample of CheXpert across all **5 of the paper's uncertainty-handling
 strategies** (U-Zeros, U-Ones, U-Ignore, U-SelfTrained, U-MultiClass), with **3 independent
 random-seed runs per strategy**, ensembled into a final composite model that picks the
-best-performing strategy per pathology — matching the paper's own use of multiple training
+best-performing strategy per pathology, matching the paper's own use of multiple training
 runs per strategy.
 
 ## Project structure
@@ -31,7 +31,7 @@ Built and run on **Kaggle** (free GPU tier — T4 x2 or P100).
 1. Open a notebook on Kaggle (or upload it to a new Kaggle notebook).
 2. **Settings → Accelerator → GPU T4 x2** (or P100 if offered).
 3. Add the CheXpert dataset via **+ Add Input** in the Kaggle sidebar.
-4. Run cells top to bottom — each notebook auto-locates the dataset and any prior checkpoints
+4. Run cells top to bottom. Each notebook auto-locates the dataset and any prior checkpoints
    under `/kaggle/input`, so no path editing should be needed.
 
 To run locally instead of on Kaggle, install the dependencies below and point `DATA_ROOT` at
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ## Dataset
 
 This project uses the [CheXpert dataset](https://stanfordmlgroup.github.io/competitions/chexpert/)
-from the Stanford ML Group. The dataset is **not included in this repository** — request access
+from the Stanford ML Group. The dataset is **not included in this repository**. Request access
 and download it from the link above, then follow the notebook setup instructions to point the
 code at it.
 
